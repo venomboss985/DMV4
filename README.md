@@ -4,21 +4,22 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 
 ## MVP (Minimum Viable Product)
 
-- [ ] Takes pictures (save 5 fps?)
-- [ ] Takes video (15s video loop)
+- [ ] Collects data at a specified interval
 - [ ] Saves content to disk (does not matter if some videos/images are corrupted, so long as most of them survive)
-- [ ] Run on boot
+- [ ] Runs on boot
 
 ## TODO
 
 - [ ] Import lib
 	- [ ] depthai
 	- [ ] opencv-contrib-python
-- [ ] Working picture save
-- [ ] Working video save
+- [ ] Data collection
+	- [ ] Working picture save
+	- [ ] Working video save
+	- [ ] Test which method is more space efficient
 - [ ] Test configurations:
 	- [ ] Mono camera
-	- [ ] Stereo camera
+	- [ ] Stereo cameras
 	- [ ] All cameras
-- [ ] Run picture and video simultaneously? (testing required, probably redundant)
 - [ ] Make sure contents are saved properly after shutdown
+- [ ] Run on boot (either cronjob, .bashrc, or something)
