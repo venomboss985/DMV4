@@ -4,7 +4,7 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 
 ## MVP (Minimum Viable Product)
 
-- [ ] Collects data at a specified interval
+- [x] Collects data at a specified interval
 - [x] Saves content to disk (does not matter if some content is corrupted, so long as most of them survive)
 - [ ] Runs on boot
 
@@ -17,9 +17,9 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 	- [x] ~~Working picture save~~ (video is much better for data collection)
 	- [x] Working video save (framerate is super weird, further testing required)
 	- [x] Test which method is more space efficient (use 1080p15, 30 if more data is wanted)
-- [ ] Test configurations:
-	- [ ] Mono camera
-	- [ ] Stereo cameras
-	- [ ] All cameras
-- [ ] Make sure contents are saved properly after shutdown
+- [x] Test configurations:
+	- [x] Mono camera
+	- [x] ~~Stereo cameras~~ (use mono camera)
+	- [x] ~~All cameras~~ (use mono camera)
 - [ ] Run on boot (either cronjob, .bashrc, or something)
+- [ ] Make sure contents are saved properly after shutdown
