@@ -10,12 +10,12 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 
 ## TODO
 
-- [ ] Import lib
-	- [ ] depthai
-	- [ ] opencv-contrib-python
+- [x] Import lib
+	- [x] depthai
+	- [x] opencv-contrib-python
 - [ ] Data collection
 	- [ ] Working picture save
-	- [ ] Working video save
+	- [x] Working video save (framerate is super weird, further testing required)
 	- [ ] Test which method is more space efficient
 - [ ] Test configurations:
 	- [ ] Mono camera
