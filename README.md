@@ -6,7 +6,7 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 
 - [x] Collects data at a specified interval
 - [x] Saves content to disk (does not matter if some content is corrupted, so long as most of them survive)
-- [ ] Runs on boot
+- [x] Runs on boot
 
 ## TODO
 
@@ -21,5 +21,5 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 	- [x] Mono camera
 	- [x] ~~Stereo cameras~~ (use mono camera)
 	- [x] ~~All cameras~~ (use mono camera)
-- [ ] Run on boot (either cronjob, .bashrc, or something)
+- [x] Run on boot (either cronjob, .bashrc, or something)
 - [ ] Make sure contents are saved properly after shutdown
