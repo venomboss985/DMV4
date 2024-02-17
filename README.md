@@ -5,7 +5,7 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 ## MVP (Minimum Viable Product)
 
 - [ ] Collects data at a specified interval
-- [ ] Saves content to disk (does not matter if some videos/images are corrupted, so long as most of them survive)
+- [x] Saves content to disk (does not matter if some content is corrupted, so long as most of them survive)
 - [ ] Runs on boot
 
 ## TODO
@@ -13,10 +13,10 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 - [x] Import lib
 	- [x] depthai
 	- [x] opencv-contrib-python
-- [ ] Data collection
-	- [ ] Working picture save
+- [x] Data collection
+	- [x] ~~Working picture save~~ (video is much better for data collection)
 	- [x] Working video save (framerate is super weird, further testing required)
-	- [ ] Test which method is more space efficient
+	- [x] Test which method is more space efficient (use 1080p15, 30 if more data is wanted)
 - [ ] Test configurations:
 	- [ ] Mono camera
 	- [ ] Stereo cameras
