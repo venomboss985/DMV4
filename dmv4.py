@@ -40,8 +40,8 @@ def record():
 	# Create a video writer
 	output_name = f"output {datetime.now()}.avi".replace(' ', '_')
 	out = cv2.VideoWriter(
-		f"/home/pi/oakd-lite-testing/outputs/{output_name}", # Output filename
-		cv2.VideoWriter_fourcc(*'x264'), # FourCC recording format
+		f"/home/pi/DMV4/outputs/{output_name}", # Output filepath
+		cv2.VideoWriter_fourcc(*'x264'), # FourCC recording format ('x264' for Pi 4, 'MP42' for Pi 5)
 		FRAMERATE, # FPS
 		(1920, 1080), # Resolution
 	)
