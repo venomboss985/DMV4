@@ -1,4 +1,4 @@
-'#!/usr/bin/env python
+#!/usr/bin/env python
 
 # Import dependencies
 import depthai as dai
