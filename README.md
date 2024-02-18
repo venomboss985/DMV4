@@ -10,6 +10,8 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 
 ## TODO
 
+*Update: Nothing left to do, tested and working on the Pi 5 and OAK-D Lite; definite improvements can be made, but only when there's more time*
+
 - [x] Import lib
 	- [x] depthai
 	- [x] opencv-contrib-python
@@ -22,4 +24,4 @@ Data collection script for MonsterVision4. Since MV4 is most likely not going to
 	- [x] ~~Stereo cameras~~ (use mono camera)
 	- [x] ~~All cameras~~ (use mono camera)
 - [x] Run on boot (either cronjob, .bashrc, or something)
-- [ ] Make sure contents are saved properly after shutdown
+- [x] Make sure contents are saved properly after shutdown
